@@ -1,8 +1,15 @@
-.categoryCar {
-  height: 30px;
+.category {
   background-color: rgb(6, 164, 243);
   border-radius: 10px;
   display: flex;
+  margin: auto;
+  height: 60px;
+}
+
+.categoryCar {
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .btn-car {
@@ -14,4 +21,7 @@
   font-size: large;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-right: 10px;
+}
+.btn-car:hover {
+  background-color: #005eeb;
 }

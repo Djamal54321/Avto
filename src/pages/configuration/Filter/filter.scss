@@ -1,0 +1,49 @@
+.filter {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  background-color: rgb(216, 238, 249);
+  border-radius: 10px;
+}
+
+.filterClass {
+  font-family: cursive;
+  margin: 10px;
+}
+
+.setting {
+  display: flex;
+  padding: 10px 40px;
+}
+
+.car {
+  margin-right: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.me-2 {
+  height: 60px;
+}
+.text {
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: large;
+  height: 60px;
+  width: 200px;
+  padding-top: 16px;
+  border: 1px solid rgb(27, 3, 88);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.btn-primary {
+  border: 1px solid rgb(27, 3, 88);
+}
+
+.dropdown-item,
+.dropdown-menu {
+  background-color: rgb(42, 187, 255);
+}
+.dropdown-item:hover {
+  background-color: #0d6efd;
+}

@@ -1,0 +1,32 @@
+.btn-category {
+  display: flex;
+  flex-direction: row;
+  background-color: #0d6efd;
+  margin-left: 40px;
+  width: 450px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid rgb(27, 3, 88);
+  border-radius: 5px;
+}
+.btn-category-text {
+  width: 150px;
+  color: #fff;
+  font-size: large;
+  height: 60px;
+  padding-top: 16px;
+}
+
+.btn-category-primary {
+  width: 100px;
+  border: 1px solid rgb(30, 43, 221);
+  padding: 15px 0px 0px 0px;
+}
+.btn.active,
+.btn.active:hover,
+.btn:hover {
+  color: rgb(255, 225, 0);
+  border: 1px solid rgb(30, 43, 221);
+  background-color: #0457d4;
+  transition: 0.7s;
+}

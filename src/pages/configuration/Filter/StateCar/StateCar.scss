@@ -1,0 +1,27 @@
+.stateCar {
+  background-color: #0d6efd;
+  border-radius: 5px;
+  height: 60px;
+  width: 375px;
+  border: 1px solid rgb(27, 3, 88);
+}
+.btn-stateCar {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-around;
+}
+.btn {
+  color: #fff;
+  border: 1px solid rgb(30, 43, 221);
+}
+.btn:hover {
+  color: rgb(255, 225, 0);
+  border: 1px solid rgb(30, 43, 221);
+  background-color: #0457d4;
+  transition: 0.7s;
+}
+
+.btn-stateCar {
+  width: 375px;
+}
